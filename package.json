@@ -1,0 +1,19 @@
+{
+  "name": "cjsx-register",
+  "version": "1.0.0",
+  "description": "Allow requiring .cjsx as .coffee",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagemathinc/cjsx-register.git"
+  },
+  "author": "John Jeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagemathinc/cjsx-register/issues"
+  },
+  "homepage": "https://github.com/sagemathinc/cjsx-register#readme"
+}
