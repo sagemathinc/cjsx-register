@@ -1,6 +1,6 @@
 {
   "name": "cjsx-register",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Allow requiring .cjsx as .coffee",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sagemathinc/cjsx-register/issues"
   },
-  "homepage": "https://github.com/sagemathinc/cjsx-register#readme"
+  "homepage": "https://github.com/sagemathinc/cjsx-register#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0"
+  }
 }
