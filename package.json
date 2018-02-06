@@ -2,7 +2,7 @@
   "name": "cjsx-register",
   "version": "1.0.0",
   "description": "Allow requiring .cjsx as .coffee",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
