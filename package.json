@@ -1,6 +1,6 @@
 {
   "name": "cjsx-register",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Allow requiring .cjsx as .coffee",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,20 @@
   },
   "homepage": "https://github.com/sagemathinc/cjsx-register#readme",
   "dependencies": {
-    "babel-core": "^6.26.0"
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/plugin-transform-react-jsx": "^7.0.0-beta.51",
+    "@babel/polyfill": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51"
+  },
+  "peerDependencies": {
+    "coffeescript": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-react-jsx"
+    ]
   }
 }

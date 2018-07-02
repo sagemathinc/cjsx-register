@@ -4,7 +4,7 @@ coffee = require('coffeescript');
 require.extensions['.cjsx'] = function(module, filename) {
     var src = fs.readFileSync(filename, {encoding: 'utf8'});
     try {
-          src = coffee.compile(src, {transpile: {presets: ['react']}});
+          src = coffee.compile(src, {transpile: {presets: ['env']}});
     } catch (e) {
           throw new Error('Error transforming ' + filename + ' from CJSX: ' + e.toString());
     }
